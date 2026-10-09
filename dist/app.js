@@ -1,5 +1,6 @@
 import { CATEGORIES, STATUSES, STORAGE_KEY, localDate, readState, saveState, validateTask, withStatus, summarize, advanceDemo, escapeHTML as esc } from './state.js';
 import { renderScene } from './scene.js';
+import { initWeeklyQuotaUI } from './weekly-quota-ui.js';
 
 const paths={
   grid:'<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>',
@@ -68,6 +69,7 @@ document.addEventListener('visibilitychange',()=>{if(!document.hidden)renderTime
 window.addEventListener('storage',e=>{if(e.key===STORAGE_KEY&&!$('#task-dialog').open){state=readState(storage);render();}});
 $('#top-date').textContent=new Date().toLocaleDateString('ko-KR',{month:'long',day:'numeric',weekday:'long'});$('#day-badge').textContent=new Date().toLocaleDateString('en-US',{month:'short',day:'2-digit'}).toUpperCase();
 render();if(state.warning)toast(state.warning);
+initWeeklyQuotaUI();
 
 // Optional WebMCP shares the visible UI's validated actions and state.
 const modelContext=document.modelContext;

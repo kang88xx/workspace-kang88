@@ -7,3 +7,52 @@ dialog{border:1px solid #e2e7ef;border-radius:18px;padding:28px;width:min(540px,
 @media(max-width:760px){.rail{width:60px}.app-shell{margin-left:60px}.topbar{padding:0 20px;height:70px;gap:15px}.wordmark span,.topbar-divider,.breadcrumb,.local-label{display:none}.topbar-right{gap:10px}main{padding:24px 18px 0}.page-heading{gap:10px}.page-heading h1{font-size:25px}.page-heading p{font-size:12px}.page-heading .primary-button{font-size:12px;padding:10px;white-space:nowrap}.metrics{grid-template-columns:1fr 1fr;gap:10px;margin-bottom:18px}.metric-card{min-height:83px;padding:12px 14px}.metric-value{font-size:23px}.metric-icon{height:32px;width:32px}.daily-column{grid-template-columns:1fr 1fr}.daily-column .today-card{grid-row:span 2}.daily-column .focus-card{grid-column:2}.scene-container{min-height:300px;aspect-ratio:1.65}.card-topline{padding:17px 14px 13px}.card-topline>.small{display:none}.scene-toolbar{padding:0 12px 12px}.category-tabs button{padding:7px 8px;font-size:12px}.scene-footer{padding:12px}.scene-footer>.small{display:none}.workspace-legend{gap:12px;font-size:12px}.task-board{gap:9px;grid-template-columns:repeat(2,minmax(0,1fr))}.task-lane:last-child{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:8px}.task-lane:last-child .lane-header{grid-column:1/-1;margin-bottom:1px}.task-lane:last-child .task-card{margin:0}.task-lane{padding:8px}.task-card{padding:10px}.scene-caption{font-size:12px;left:12px}.zoom-controls{right:10px}.page-footer>span:last-child{display:none}}
 @media(max-width:480px){.rail{height:60px;inset:0 0 auto 0;width:100%;padding:0 16px;flex-direction:row;justify-content:space-between}.brand-symbol{margin:0}.brand-symbol img{width:32px;height:32px}.rail nav{flex-direction:row;gap:8px}.nav-item{height:34px;width:34px;border-radius:8px}.nav-item svg{width:18px;height:18px}.rail-bottom{margin:0}.rail-bottom .rail-avatar{display:none}.rail-bottom .nav-item{width:26px}.app-shell{margin-left:0;padding-top:60px}.topbar{height:56px;padding:0 18px}.wordmark{font-size:24px}.wordmark span{display:inline;font-size:12px;letter-spacing:0}.topbar .avatar{width:29px;height:29px;font-size:12px}main{padding:21px 14px 0}.eyebrow{font-size:12px;letter-spacing:1.2px}.page-heading h1{font-size:23px}.page-heading p{font-size:12px}.page-heading{margin-bottom:20px}.page-heading .primary-button{font-size:12px;padding:10px;gap:4px}.page-heading .primary-button svg{width:13px;height:13px}.metric-name{font-size:12px}.metric-meta{display:none}.scene-container{min-height:280px}.scene-container>svg{width:100%;left:0}.workspace-card .section-title h2{font-size:14px}.category-tabs button{padding:7px 6px;font-size:12px}.category-tabs{gap:0}.scene-toolbar .icon-button{width:27px;height:27px}.scene-caption{bottom:49px;font-size:12px}.scene-footer{padding:12px 9px}.workspace-legend{gap:12px;font-size:12px}.daily-column{grid-template-columns:1fr 1fr;gap:10px}.daily-column .today-card{grid-column:1/-1;grid-row:auto}.daily-column .ai-card{grid-column:1}.daily-column .focus-card{grid-column:2;height:100%}.daily-column .ai-card,.daily-column .focus-card{padding:13px}.daily-heading h2{font-size:12px}.daily-heading .section-title{gap:5px}.ai-card>p{font-size:12px}.ai-emblem{width:23px;height:23px}.demo-label{font-size:12px;padding:2px}.partner-name{font-size:12px}.partner-icon{width:23px;height:23px}.partner-row{gap:6px}.partner-progress{font-size:12px}.timer-value{font-size:38px;margin-top:29px}.focus-card p{font-size:12px;line-height:1.7}.focus-card .daily-heading>.small{display:none}.demo-button{font-size:12px;gap:4px;padding:8px 4px}.ai-disclaimer{font-size:12px;line-height:1.6}.today-list{display:grid;grid-template-columns:1fr 1fr;column-gap:16px}.today-row{border-bottom:1px solid #f0f2f4}.board-heading h2{font-size:15px}.board-heading>.small{font-size:12px}.search-field{width:127px}.search-field input{font-size:12px}.task-card-title{font-size:12px}.task-card-note{font-size:12px}.task-card-top .tag{font-size:12px}.priority-high{font-size:12px}.form-grid{grid-template-columns:1fr}.dialog-heading h2{font-size:20px}dialog{padding:23px}.scene-task-label text{font-size:14px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* Weekly usage policy and isolated preview. */
+.quota-card{background:#fff;border:1px solid #dfe7df;border-radius:13px;padding:20px}
+.quota-card .daily-heading{align-items:flex-start;flex-wrap:wrap;gap:8px}
+.quota-policy-badge{font-size:12px;background:#edf4e6;color:#5d734b;padding:4px 7px;border-radius:5px;white-space:nowrap}
+.quota-remaining{display:flex;align-items:center;gap:13px;margin:16px 0 9px}
+.quota-remaining strong{font-size:32px;font-weight:600;color:#8b98a6;line-height:1}
+.quota-remaining span{font-size:14px;color:#6d7988}
+.quota-card p{font-size:12px;line-height:1.8;color:#6f7b88}
+.quota-rules{list-style:none;padding:0;margin:13px 0;font-size:12px}
+.quota-rules li{display:flex;justify-content:space-between;gap:10px;padding:7px 0;border-bottom:1px solid #edf0ed}
+.quota-rules li span{color:#77838f}.quota-rules strong{font-weight:550;color:#485b49}
+.quota-card .quota-connection-note{color:#8b949e}
+.quota-policy-button{margin-top:15px;width:100%;padding:10px 8px;border:1px solid #e0e7dd;background:#f8faf6;border-radius:7px;font-size:12px;color:#647657}
+#quota-policy-dialog{width:min(590px,calc(100% - 28px));max-height:90dvh;overflow-y:auto}
+#quota-policy-dialog .dialog-heading h2{font-size:23px}
+.quota-policy-copy{font-size:14px;line-height:1.8;color:#647280}
+.quota-policy-copy strong{color:#34473b;font-weight:600}
+.quota-policy-copy ul{padding-left:20px;margin:14px 0 20px}
+.quota-policy-copy li{margin:7px 0}
+.quota-preview{border:1px solid #dfe5ed;border-radius:12px;background:#f5f7fa;padding:18px}
+.quota-preview h3{font-size:15px;margin:0}
+.quota-preview .daily-heading{margin-bottom:17px;flex-wrap:wrap;gap:8px}
+.quota-preview .demo-label{font-size:12px;color:#6c7189;border-color:#d9dce6}
+.quota-preview .form-label{font-size:14px}
+.quota-preview .form-label select{background:#fff;font-size:14px}
+.quota-preview-value{display:flex;align-items:baseline;gap:10px;margin:13px 0 9px}
+.quota-preview-value strong{font-size:30px;letter-spacing:-1px;font-variant-numeric:tabular-nums}
+.quota-preview-value span{font-size:12px;color:#8893a0}
+.quota-meter{height:6px;background:#e1e7ee;border-radius:6px;overflow:hidden}
+.quota-meter span{display:block;height:100%;background:#89b176;transition:width .2s}
+.quota-meter span[data-level=warning]{background:#cda152}
+.quota-meter span[data-level=blocked]{background:#c37770}
+#quota-preview-status{font-size:14px;line-height:1.7;color:#65775b;min-height:47px;margin:12px 0}
+#quota-preview-status[data-level=warning]{color:#90601b}
+#quota-preview-status[data-level=blocked]{color:#a3544d}
+.quota-preview-buttons{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.quota-preview-buttons button{padding:10px 4px;background:#fff;border:1px solid #dce3ec;border-radius:7px;font-size:13px;color:#506376}
+.quota-preview-secondary{display:flex;justify-content:space-between;gap:10px;margin-top:12px;flex-wrap:wrap}
+.quota-preview-secondary button{font-size:12px;color:#72658b;padding:5px 0;text-decoration:underline;text-underline-offset:3px}
+#quota-preview-event{font-size:12px;line-height:1.7;color:#83909d;margin-top:12px}
+.quota-dialog-note{font-size:12px;line-height:1.8;color:#84909c;margin-top:18px}
+.quota-extra-description{font-size:14px;line-height:1.8;margin-top:17px;color:#687887}
+.quota-request-details{margin:18px 0;padding:12px 16px;border:1px solid #e5e9ef;border-radius:9px;background:#f7f9fb}
+.quota-request-details>div{display:flex;justify-content:space-between;gap:15px;padding:7px 0;font-size:13px}
+.quota-request-details dt{color:#83909d}.quota-request-details dd{margin:0;text-align:right;color:#485b6e}
+#quota-extra-dialog .dialog-actions{margin-top:23px;flex-wrap:wrap}
+@media(max-width:1150px){.daily-column .quota-card{grid-column:1/-1}.quota-card .quota-rules{display:flex;gap:26px;flex-wrap:wrap}.quota-rules li{gap:25px}.quota-policy-button{width:auto;padding:10px 18px}}
+@media(max-width:480px){.quota-card{padding:17px}.quota-card .quota-rules{gap:0;display:block}.quota-policy-button{width:100%}.quota-preview{padding:14px}.quota-preview-buttons{gap:6px}.quota-preview-buttons button{font-size:12px}.quota-request-details{padding:10px}.quota-request-details>div{font-size:12px}.quota-dialog-note{font-size:12px}#quota-extra-dialog .dialog-heading h2{font-size:20px}}

@@ -34,6 +34,8 @@ Desktop: slim navigation rail, main workspace, right daily panel. Below 1150px t
 ## Interaction states
 Empty category and search states provide useful text and creation actions. Save failures surface a warning. Add/edit/delete update all views. Deletion supports undo. Activity reports actual local mutations. AI demo simulates progress only while running and is labeled. Focus timer uses timestamps to avoid drift.
 
+Weekly AI usage policy: execution, AI-assisted checking, and AI-assisted monitoring may use only the connected service's weekly included allowance. Warn strictly below 5%; at 0%, abort in-flight work and block new work. Requests for extra usage remain pending until informed approval; do not automatically enable credits or pay-as-you-go. Unknown/stale usage blocks work. A reset timestamp alone does not replenish usage, and refresh never restarts stopped jobs automatically. Before a real service is connected, display an unknown amount and keep approval unavailable. Provide a clearly isolated, no-network policy preview that cannot write production usage or task records.
+
 ## Content voice
 Plain Korean. Brief labels and useful verbs. English brand and small section labels only. No claims of connected AI or server synchronization.
 
